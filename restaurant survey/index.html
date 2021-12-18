@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant survey</title>
+    <style>
+
+        body{
+            margin: 0;
+            background-image: url("https://media.istockphoto.com/photos/wood-texture-table-top-with-blur-cafe-kitchen-background-picture-id1273029499?b=1&k=20&m=1273029499&s=170667a&w=0&h=VOceO5Juz-vrWrmlv5PBCmAmryEKfZ8ac7ew0xxlk8o=");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #main{
+            width: vh;
+            height: 90vh;
+            border:1px solid black;
+            background-color: rgb(91, 183, 199);
+            margin: 60px 500px ;
+        }
+        
+
+        .form-control{
+            text-align: left;
+            margin-bottom: 25px;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+
+        .form-control label {
+           
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+         
+            width: 100%;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1 style="text-align: center; color: rgb(233, 21, 6);">Restaurant Survey</h1>
+
+        <form id="form">
+                <div class="form-control"> 
+                    <label for="name" id="label-name">
+                        Name
+                    </label>
+
+                    <input type="text" style="width: 80%; margin-left: 24px;"
+                   id="name"
+                   placeholder="Enter your name"  />
+                </div>
+
+                <div class="form-control"> 
+                    <label for="Email" id="label-email">
+                        Email
+                    </label>
+
+                    <input type="text"  style="width: 80%; margin-left: 24px;"
+                   id="email"
+                   placeholder="Enter your email" />
+                </div>
+
+                <div class="form-control"> 
+                    <label for="Phone" id="label-phone">
+                        Phone no.</label>
+                    <input type="tel" style="width: 80%;"
+                     id="phone"
+                      pattern="[0-9]"
+                      placeholder="Enter your Phone no"
+                      />
+                </div>
+
+                
+        <div class="form-control">
+            <label> Quality of food :
+            </label>
+           
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Excellent</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Good</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Fair</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Poor</input></label>
+            
+        </div>
+
+        <div class="form-control">
+            <label> Ease of ordering :
+            </label>
+           
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Excellent</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Good</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Fair</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Poor</input></label>
+            
+        </div>
+
+        <div class="form-control">
+            <label> service :
+            </label>
+       
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Excellent</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Good</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Fair</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Poor</input></label>
+            
+        </div>
+
+        <div class="form-control">
+            <label> Overall value :
+            </label>
+           
+            <label for="inp-1">
+                <input type="checkbox" class="radio" value="1" 
+                       name="inp[1][]"/>Excellent</label>
+            <label for="inp-2">
+                <input type="checkbox"  class="radio" value="1" 
+                       name="inp[1][]"/>Good</label>
+            <label for="inp-3">
+                <input type="checkbox" class="radio" value="1" 
+                       name="inp[1][]"/>Fair</label>
+            <label for="inp-4">
+                <input type="checkbox" class="radio" value="1" 
+                       name="inp[1][]"/>Poor</label>
+            
+        </div>
+
+        <div class="form-control">
+            <label  for="comment">
+                Any comments or suggestions
+            </label>
+ 
+        
+            <textarea style="height: 40px;" name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+    
+        <button type="submit" value="submit">
+            Submit
+        </button>
+  
+  
+
+               
+                   
+            
+
+            
+
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
