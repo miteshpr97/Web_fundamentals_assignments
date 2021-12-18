@@ -1,0 +1,21 @@
+ul button {
+    margin-left: 15px;
+}
+
+body{
+    background: linear-gradient(65deg, red, pink, blue);
+    height: 100vh;
+}
+
+.container{
+  
+    width: 500px;
+    height: 200px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    background-color: rgb(224, 58, 80);
+
+}
+
