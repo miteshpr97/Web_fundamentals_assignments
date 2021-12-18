@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>google</title>
+    <style>
+        .bodywrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            flex-direction: column;
+
+        }
+
+        .imagecontainer img {
+            object-fit: contain;
+            height: 100px;
+        }
+
+        .search{
+            display: flex;
+            align-items: center;
+            border: 1px solid lightgray;
+            padding: 10px 20px;
+            border-radius: 999px;
+            height: 30px;
+            width: 70vw;
+            max-width: 560px;
+            margin-top: 30px;
+        }
+
+        .search input {
+            border:none;
+            outline: none;
+            padding: 10px 20px;
+            flex: 1
+        }
+
+        .buttoncontainer{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .buttoncontainer button{
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            background-color: #f8f9fa;
+            outline: none;
+        }
+
+
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="bodywrapper">
+
+        <!--------------------image container------------------------------------->
+        <div class="imagecontainer">
+            <img src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google image">
+        </div>
+         <!--------------------/image container------------------------------------->
+        <!--------------------------main search ---------------------------->
+        <div class="mainsearchclass">
+            <!----------------search bar div ---------------------->
+            <div class="search">
+                <span class="material-icons">
+                    search
+                    </span>
+
+                    <input type="txt">
+
+                    <span class="material-icons">
+                        mic
+                        </span>
+    
+            </div>
+ <!--------------------------main search ---------------------------->
+  <!--------------------------button container---------------------------->
+            <div class="buttoncontainer">
+                <button>Googlr search</button>
+                <button>I'm feeling lucky</button>
+            </div>
+
+        </div>
+<!--------------------------button container---------------------------->
+        
+
+
+    </div>
+    
+</body>
+</html>
